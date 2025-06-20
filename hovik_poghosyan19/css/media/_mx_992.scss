@@ -1,0 +1,19 @@
+.main {
+  .main__form {
+    column-count: 3;
+  }
+  .container {
+    .columns {
+      .columns__block {
+        width: 30%;
+      }
+    }
+  }
+}
+.footer {
+  .container {
+    .columns {
+      column-count: 2;
+    }
+  }
+}

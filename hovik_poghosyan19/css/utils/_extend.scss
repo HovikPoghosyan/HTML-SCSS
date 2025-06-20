@@ -1,0 +1,39 @@
+%header__block {
+  border-right: 1px solid #3c3c3c;
+  border-left: 1px solid #3c3c3c;
+}
+%p {
+  font-size: 15px;
+  letter-spacing: 2px;
+  line-height: 28px;
+  color: #464646;
+  font-weight: 300;
+  font-family: "Hind";
+  padding: 10px 20px;
+}
+
+%h3 {
+  margin: 15px 0;
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 14px;
+  text-transform: uppercase;
+  color: #212121;
+  font-weight: 700;
+  font-family: "Montserrat";
+}
+
+%owl-button {
+  z-index: 1;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  right: 1%;
+  margin: auto;
+  color: white !important;
+  font-size: 36px !important;
+  padding: 10px;
+  &:hover {
+    background-color: rgba(white, 0.3);
+  }
+}

@@ -1,0 +1,47 @@
+.footer a {
+    width: 53px;
+    height: 52px;
+    border-radius: 26px;
+    background-color: #d3d3d3;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 0 5px;
+}
+
+.contact {
+    width: 238px;
+    height: 55px;
+    border-radius: 27px;
+    filter: drop-shadow(1.91px 10.833px 10px rgba(20,20,21,0.07));
+    background-color: #fdfdfd;
+    border: 1px solid rgba(1,2,2,0.07);
+    text-align: center;
+    font-weight: 400;
+}
+
+.contact:hover {
+    background-color: #efebeb;
+}
+
+.footer a i {
+    font-size: 30px;
+}
+
+.footer span {
+    opacity: 0.600;
+    font-size: 17px;
+    line-height: 46px;
+    color: #040404;
+    font-weight: 400;
+    text-align: center;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+}

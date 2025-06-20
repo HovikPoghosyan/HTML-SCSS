@@ -1,0 +1,54 @@
+#landing .my__form input,
+#landing .my__form textarea {
+    font-size: 15px;
+    line-height: 25px;
+    outline: none;
+    border: 0;
+    border-bottom: 1px solid #c7c7c7;
+    display: inline-flex;
+}
+
+#landing .my__form input {
+    margin-bottom: 30px;
+}
+
+
+#landing .my__form {
+    margin-left: 30px;
+    filter: drop-shadow(0 0 28.5px rgba(20,20,21,0.2));
+    text-align: center;
+    display: inline-flex;
+    flex-direction: column;
+    align-self: start;
+    background-color: #fff;
+    padding: 30px;
+}
+
+#landing .my__form button {
+    line-height: 25px;
+    color: #ffffff;
+    background-color: #ff5c36;
+    border: none;
+    outline: none;
+    margin-top: 20px;
+    border-radius: 40px;
+    display: inline-block;
+}
+
+#landing .my__form button:hover {
+    background-color: #f8481f;
+}
+
+#landing .my__form h4 {
+    opacity: 0.902;
+    font-size: 20px;
+    line-height: 25px;
+    color: #6b6b6b;
+    font-weight: 600;
+    font-family: "Open Sans";
+    text-align: center;
+}
+
+#landing .my__form h4 span {
+    color: #ff5c36;
+}

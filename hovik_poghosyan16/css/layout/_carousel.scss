@@ -1,0 +1,130 @@
+.header__carousel {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: auto;
+  height: 100%;
+  width: 60%;
+  z-index: 1;
+  .item {
+    width: 100%;
+    height: 900px;
+    overflow: hidden;
+    z-index: 0;
+    position: relative;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      position: absolute;
+      z-index: 0;
+      animation-name: slider__photo__sacle;
+      animation-duration: 2s;
+    }
+  }
+  .owl-nav {
+    width: 50px;
+    height: 100px;
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    bottom: -200px;
+    display: inline-flex;
+    flex-direction: column-reverse;
+    button {
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      width: 50px;
+      height: 50px;
+      z-index: 2;
+      position: relative;
+    }
+    button.owl-next {
+      background-color: #ed1c24;
+      z-index: 2;
+      width: 47px;
+    }
+    button.owl-prev {
+      background-color: #ab9d92;
+      z-index: 2;
+      margin-left: -47px;
+    }
+  }
+}
+.project__carousel {
+  padding: 50px;
+  position: relative;
+  .item {
+    cursor: pointer;
+    position: relative;
+    text-align: center;
+    height: 350px;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .layer {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      left: 0;
+      right: 0;
+      top: 200%;
+      bottom: 0;
+      margin: auto;
+      background-color: rgba(red,0.5);
+      transition: all 0.4s;
+      button {
+        @extend %mini-button;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        border: 1px solid white;
+        height: 50px;
+        background-color: rgba(red,0);
+      }
+      h5 {
+        display: inline-flex;
+        justify-content: center;
+        bottom: 30px;
+        flex-wrap: nowrap;
+        margin: auto;
+      }
+    }
+    &:hover {
+      .layer {
+        top: 0;
+      }
+    }
+
+  }
+  .owl-nav {
+    z-index: 2;
+    display: inline-flex;
+    flex-direction: column-reverse;
+    button {
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      background-color: black !important;
+      color: white !important;
+      width: 50px;
+      height: 50px;
+      z-index: 2;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+    }
+    button.owl-prev {
+      left: -10px;
+    }
+    button.owl-next {
+      right: -10px;
+    }
+  }
+}

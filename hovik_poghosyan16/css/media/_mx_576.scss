@@ -1,0 +1,156 @@
+section {
+  h2 {
+    margin-top: 40px;
+    font-size: 27px;
+    line-height: 27px;
+  }
+  span {
+    font-size: 14px;
+    line-height: 14px;
+  }
+}
+.header {
+
+  .header__carousel {
+    height: 550px;
+
+    .item {
+      height: 550px;
+    }
+
+    .owl-nav {
+      width: 25px;
+      height: 50px;
+      top: 85%;
+
+      button {
+        width: 25px;
+        height: 25px;
+      }
+
+      button.owl-prev {
+        margin-left: -23px;
+      }
+    }
+  }
+
+  height: 550px;
+
+  .container {
+    .header__nav {
+      width: 45%;
+      .header__nav__block {
+        .header__nav__block__element {
+          a {
+            font-size: 20px;
+            line-height: 50px;
+          }
+        }
+      }
+    }
+    .logo {
+      .logo__name {
+        font-size: 20px;
+      }
+
+      .logo__img {
+        width: 28px;
+        height: 30px;
+      }
+    }
+
+    p {
+      font-size: 14px;
+      line-height: 20px;
+    }
+
+    h2 {
+      font-size: 50px;
+      line-height: 40px;
+      margin-top: 30px;
+    }
+
+    button {
+      font-size: 14px;
+      line-height: 14px;
+      padding: 10px 20px;
+    }
+  }
+
+
+}
+.services {
+  margin-bottom: 20px;
+  .services__columns{
+    justify-content: center;
+    .services__columns__item{
+      width: 48%;
+      p {
+        font-size: 14px;
+        line-height: 18px;
+      }
+      h4 {
+        font-size: 18px;
+        line-height: 18px;
+      }
+    }
+  }
+}
+.about {
+  .about__block {
+    width: 68%;
+    &:nth-child(2) {
+      float: right;
+      margin-top: 20px;
+      p {
+        font-size: 15px;
+        line-height: 23px;
+      }
+    }
+  }
+}
+.project__carousel {
+  .item {
+    height: 400px;
+  }
+}
+.clients {
+  .client {
+    width: 100%;
+    padding: 0 10px;
+    margin-top: 50px;
+    p {
+      font-size: 15px;
+      line-height: 20px;
+    }
+    .client__img__block {
+      margin-bottom: 90px;
+    }
+    &:nth-child(2n + 1) {
+      .client__img__block {
+        float: right;
+      }
+    }
+  }
+}
+.contact {
+  .container {
+    .contact__block{
+      .map {
+        width: 100%;
+      }
+      .my__form {
+        width: 100%;
+      }
+    }
+  }
+}
+.footer {
+  .container{
+    .columns {
+      .footer__colume {
+        width: 48%;
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+.header__nav {
+  position: relative;
+  &__block {
+    display: flex;
+    &__element {
+      width: 55px;
+      height: 55px;
+      text-align: center;
+      @extend %header__block;
+      a {
+        font-size: 16px;
+        color: white;
+        line-height: 55px;
+      }
+      &:hover {
+        a {
+          transition: 0.4s;
+          color: #999999;
+          font-size: 24px;
+        }
+      }
+    }
+  }
+}

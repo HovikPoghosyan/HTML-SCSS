@@ -1,0 +1,38 @@
+.designe button {
+  position: absolute;
+  right: 65px;
+  top: 550px;
+  margin: auto;
+}
+
+.designe .container button:last-child {
+  position: absolute;
+  right: 65px;
+  top: 540px;
+  margin: auto;
+}
+
+.designe button,
+.service__colume button {
+ @extend %button;
+  margin-top: 30px;
+  margin-left: -15px;
+}
+
+.designe button:hover,
+.service__colume button:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  color: #f7ac53;
+}
+
+.designe button i,
+.service__colume button i {
+  color: #f7ac53;
+  font-size: 14px;
+}
+
+
+
+button{
+  @extend %button;
+}

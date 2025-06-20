@@ -1,0 +1,25 @@
+.footer__colume {
+  width: 30%;
+}
+
+.footer {
+  background-color: #353535;
+  & .container {
+    display: flex;
+  }
+  &__colume h3 {
+    font-size: 14px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+  &__colume a {
+    font-size: 14px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #aaaaaa;
+    font-weight: 600;
+  }
+}

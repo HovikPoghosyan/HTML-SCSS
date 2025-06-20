@@ -1,0 +1,28 @@
+.slider__nav__block__element {
+  display: inline-flex;
+  height: 6px;
+  width: 60px;
+  background-color: #5c5c5c;
+  margin: 15px;
+  cursor: pointer;
+}
+
+.active,
+.slider__nav__block__element:hover {
+  background-color: #f7ac53;
+}
+
+.slider__nav {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 770px;
+  bottom: 0;
+  text-align: center;
+  margin: auto;
+
+}
+
+.test .slider__nav {
+  top: 900px;
+}

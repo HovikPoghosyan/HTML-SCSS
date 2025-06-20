@@ -1,0 +1,42 @@
+%p {
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 23px;
+}
+
+.header {
+  .header__nav {
+    display: none;
+  }
+}
+.main {
+  .main__form {
+
+    #email {
+      float: right !important;
+    }
+  }
+  .main__carousel {
+    height: 300px;
+    &__item {
+      height: 300px;
+    }
+  }
+  .container {
+    .columns {
+      .columns__block {
+        width: 50%;
+      }
+    }
+  }
+}
+.footer {
+  .container {
+    .columns {
+      column-count: 2;
+        .footer__column {
+          height: 200px;
+        }
+      }
+    }
+  }

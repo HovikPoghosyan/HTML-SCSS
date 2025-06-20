@@ -1,0 +1,13 @@
+.footer__copy__nav {
+  display: flex;
+  li {
+    display: inline-flex;
+    padding-bottom: 10px;
+    i {
+      font-size: 30px;
+      cursor: pointer;
+      color: #1c1b2d;
+      line-height: 30px;
+    }
+  }
+}

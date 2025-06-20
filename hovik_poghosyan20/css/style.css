@@ -1,0 +1,448 @@
+@font-face {
+    font-family: 'Baloo Chettan 2';
+    src: url('../fonts/BalooChettan2-SemiBold.eot');
+    src: url('../fonts/BalooChettan2-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/BalooChettan2-SemiBold.woff2') format('woff2'),
+        url('../fonts/BalooChettan2-SemiBold.woff') format('woff'),
+        url('../fonts/BalooChettan2-SemiBold.ttf') format('truetype'),
+        url('../fonts/BalooChettan2-SemiBold.svg#BalooChettan2-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-Bold.eot');
+    src: url('../fonts/Poppins-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Poppins-Bold.woff2') format('woff2'),
+        url('../fonts/Poppins-Bold.woff') format('woff'),
+        url('../fonts/Poppins-Bold.ttf') format('truetype'),
+        url('../fonts/Poppins-Bold.svg#Poppins-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-Regular.eot');
+    src: url('../fonts/Poppins-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Poppins-Regular.woff2') format('woff2'),
+        url('../fonts/Poppins-Regular.woff') format('woff'),
+        url('../fonts/Poppins-Regular.ttf') format('truetype'),
+        url('../fonts/Poppins-Regular.svg#Poppins-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway-SemiBold.eot');
+    src: url('../fonts/Raleway-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Raleway-SemiBold.woff2') format('woff2'),
+        url('../fonts/Raleway-SemiBold.woff') format('woff'),
+        url('../fonts/Raleway-SemiBold.ttf') format('truetype'),
+        url('../fonts/Raleway-SemiBold.svg#Raleway-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+*  {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+i {
+	cursor: pointer;
+}
+
+body {
+    background: #ffffff;
+    color: #000000;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 17px;
+	line-height: 34px;
+	color: #282828;
+	font-weight: 400;
+	font-family: "Poppins";
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+button {
+	cursor: pointer;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.container {
+    width: 100%;
+    padding: 0 10px;
+    max-width: 1190px;
+    margin: 0 auto;
+    display: block;
+    overflow: hidden;
+}
+
+.clear {
+	clear: both;
+}
+
+.header__nav__block__element a {
+	font-size: 17px;
+	line-height: 30px;
+	text-transform: uppercase;
+	color: #282828;
+	text-align: center;
+}
+
+.header__nav__block__element {
+	float: left;
+	margin-left: 70px;
+}
+
+.header__nav {
+	float: right;
+}
+
+.header {
+	position: fixed;
+    z-index: 999;
+    right: 0;
+    left: 0;
+    margin: auto;
+    padding: 20px 0;
+    background-color: white;
+}
+
+.logo h1 {
+	font-size: 30px;
+	line-height: 30px;
+	color: #282828;
+	font-family: "Baloo Chettan";
+	text-align: center;
+	display: inline-block;
+}
+
+.logo__img {
+	width: 44px;
+	height: 30px;
+	float: left;
+}
+
+nav i {
+	width: 20px;
+	height: 20px;
+	margin-top: 8px;
+}
+
+#web h2 {
+	font-size: 70px;
+	line-height: 70px;
+	color: #fdfdfe;
+	margin-bottom: 50px;
+	font-family: "Baloo Chettan";
+	text-align: center;
+}
+
+#web p {
+	font-size: 36px;
+	line-height: 50px;
+	color: #f4f5fb;
+	font-weight: 600;
+	margin-bottom: 50px;
+	font-family: "Raleway";
+	text-align: center;
+}
+
+.read__more	{
+	font-size: 20px;
+	line-height: 20px;
+	color: #9a26e2;
+	padding: 35px 90px;
+	background-color: white;
+	border-radius: 20px;
+	display: inline-block;
+	border: 0;
+	margin-top: 40px;
+	margin-bottom: 290px;
+}
+
+.read__more:hover	{
+	background-color: #d6d1d1;
+}
+
+#web {
+	padding-top: 390px;
+	background-image: url(../img/background/web.png);
+	background-size: 100% calc(100% - 50px);
+	background-repeat: no-repeat;
+	text-align: center;
+}
+
+.capsule {
+	width: 239px;
+	height: 100px;
+	border-radius: 50px;
+	background-color: #ffffff;
+	margin: 0 auto;
+}
+
+#about {
+	text-align: center;
+	padding: 100px 0 0 0;
+}
+
+#about p {
+	color: #282828;
+	margin-top: 30px;
+	margin-bottom: 40px;
+}
+
+#about img {
+	width: 75%;
+	height: 70%;
+	object-fit: cover;
+}
+
+h3 {
+	font-size: 40px;
+	line-height: 40px;
+	text-transform: uppercase;
+	color: #282828;
+	font-weight: 700;
+	padding-bottom: 20px;
+}
+
+#about button {
+	background-color: #820cdb;
+	color: white;
+}
+
+#about button:hover {
+	background-color: #58148c;
+}
+
+#services {
+	text-align: center;
+	background-color: #fcf8fe;
+	padding: 100px 0;
+}
+
+.services__colume img {
+	width: 80px;
+	height: 80px;
+}
+
+.services__colume {
+	width: calc(100%/3 - 4px);
+	display: inline-block;
+	padding: 30px 5%;
+	margin-top: 50px;
+	margin-bottom: 100px;
+}
+
+.services__colume:hover {
+	background-color: #e2e1e3;
+}
+
+.services__colume h5 {
+	font-size: 20px;
+	line-height: 34px;
+	text-transform: uppercase;
+	color: #282828;
+}
+
+.services__colume p {
+	line-height: 34px;
+	color: #282828;
+	text-align: center;
+}
+
+.contact__message__area {
+	width: 500px;
+	float: left;
+}
+
+#contact .my__form {
+	width: 500px;
+	padding: 30px;
+	background-color: #4323b1;
+	text-align: center;
+}
+
+.contact__input {
+	width: 100%;
+	background-color: #4323b1;
+	color: #454444;
+	background-color: white;
+	height: 50px;
+	outline: none;
+	border: none;
+	margin-bottom: 20px;
+	padding: 0 10px;
+}
+
+#contact .my__form textarea {
+	padding: 0 10px;
+	width: 100%;
+	line-height: 17px;
+	background-color: #4323b1;
+	color: #454444;
+	background-color: white;
+	height: 50px;
+	outline: none;
+	border: none;
+	margin-bottom: 20px;
+	padding: 0 10px;
+	min-height: 90px;
+}
+
+#contact .my__form button {
+	text-transform: uppercase;
+	color: #fefeff;
+	font-weight: 700;
+	border: none;
+	background-color: #8929cf;
+	padding: 30px 80px;
+}
+
+#contact .my__form button:hover {
+	background-color: #6c3694;
+}
+
+#contact {
+	background-color: white;
+	padding: 100px 0;
+}
+
+
+#contact h3 {
+	font-size: 35px;
+}
+
+#contact img {
+	width: 500px;
+	height: 500px;
+	margin-top: 50px;
+	float: right;
+	object-fit: cover;
+}
+
+#client	h4 {
+	font-size: 26px;
+	line-height: 34px;
+	color: #282828;
+	margin-top: 100px;
+}
+
+#client {
+	padding: 100px 0;
+	text-align: center;
+}
+
+
+#client blockquote {
+	width: 80%;
+	margin: 30px auto;
+}
+
+.footer {
+	padding: 50px 0 0 0;
+	background-image: linear-gradient(106deg, #982ed5 0%, #982ed5 0%, #1f05a2 98%, #1f05a2 100%);
+}
+
+.footer .my__form {
+	width: 70%;
+	margin: 0 auto;
+	border-bottom: 1px solid #bb9fe3;
+	padding-bottom: 10px;
+	margin-bottom: 30px;
+}
+
+
+
+.footer input {
+	color: white;
+	text-transform: uppercase;
+	font-size: 16px;
+	float: left;
+	border: none;
+	outline: none;
+	line-height: 40px;
+	background-color: rgba(0, 0, 0, 0);
+}
+
+.footer .my__form a {
+	opacity: 0.671;
+	padding: 3px 30px;
+	font-size: 16px;
+	border-radius: 20px;
+	color: #fdfdfe;
+	border: 1.22px solid #ffffff;
+	float: right;
+}
+
+.footer .my__form a:hover {
+	background-color: rgba(255, 255, 255, 0.3);
+}
+
+.footer h5{
+	font-size: 38px;
+	line-height: 31px;
+	color: #f4f6fd;
+	font-weight: 600;
+	font-family: "Raleway";
+	text-align: center;
+}
+
+
+.soc {
+	margin: 50px auto;
+	display: block;
+	text-align: center;
+}
+
+.soc a{
+	border: none;
+	padding: 0 5px 0 5px;
+}
+
+.soc a img{
+	object-fit: cover;
+	width: 40px;
+	height: 40px;
+}
+
+.copy {
+	text-align: center;
+	background-color: white;
+}
+
+.copy p {
+	font-size: 17px;
+	line-height: 32px;
+	color: black;
+	padding: 30px 0;
+}
